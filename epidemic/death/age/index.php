@@ -1,8 +1,8 @@
 <?php
 
-require '../../path/path.php';
+require '../../../path/path.php';
 
-$url = $death_my_csv;
+$url = $death_age_csv;
 $curl = curl_init($url);
 curl_setopt($curl, CURLOPT_URL, $url);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
