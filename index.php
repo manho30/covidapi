@@ -1,8 +1,5 @@
 <?php 
 
-for($i = 0; $i < 10; $i++){
-    header('Location: '.$_SERVER['REQUEST_URI']);
-}
 http_response_code(200);
 header("Content-type: application/json");
 echo (
