@@ -35,7 +35,7 @@ The server should be start now.
 
 For example to get vaccination data by state,
 
-`get` http://127.0.0.1:8084/vax/state
+`GET` http://127.0.0.1:8084/vax/state
 
 
 ## Credit
