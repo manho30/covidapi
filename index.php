@@ -7,7 +7,7 @@ echo (
         array(
             "ok" => true,
             "status" => 200,
-            "message" => array()
+            "message" => "read the dOcumentation for using this API! "
         )
     )
 )
