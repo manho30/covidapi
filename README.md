@@ -22,10 +22,10 @@ Coverage percentage: ![coverage](https://img.shields.io/badge/coverage-42%25-gre
 │   ├── cluster
 │   │   └── index.php
 │   ├── death
-│   |   ├── age
-│   |   │   └── index.php
-│   |   └── malaysia
-│   |       └── index.php
+│   │   ├── age
+│   │   │   └── index.php
+│   │   └── malaysia
+│   │       └── index.php
 │   ├── hospital
 │   │   └── index.php
 │   ├── icu
@@ -38,28 +38,28 @@ Coverage percentage: ![coverage](https://img.shields.io/badge/coverage-42%25-gre
 │   ├── checkin
 │   │   ├── malaysia
 │   │   │   └── index.php
-|   |   ├── state
+│   │   ├── state
 │   │   │   └── index.php
-|   |   └──time
+│   │   └──time
 │   │       └── index.php
 │   └── trace
 │       └── index.php
 ├── path
 │   └── path.php
 ├── registration
-|   ├── state
-|   │   └── index.php
-|   └── vax
-|       └── index.php
+│   ├── state
+│   │   └── index.php
+│   └── vax
+│       └── index.php
 ├── static
-|   └── index.php
+│   └── index.php
 ├── vax
-|   ├── malaysia
-|   │   └── index.php
-|   ├── school
-|   │   └── index.php
-|   └── state
-|       └── index.php
+│   ├── malaysia
+│   │   └── index.php
+│   ├── school
+│   │   └── index.php
+│   └── state
+│       └── index.php
 └── docs
     ├── index.html
     ├── README.md
@@ -151,12 +151,12 @@ Accoring to the project structure, you may reqauest to the correct path. Otherwi
 
 ``` text
 ├── vax
-|   ├── malaysia
-|   │   └── index.php
-|   ├── school
-|   │   └── index.php
-|   └── state
-|       └── index.php
+│   ├── malaysia
+│   │   └── index.php
+│   ├── school
+│   │   └── index.php
+│   └── state
+│       └── index.php
 ```
 Hence, you need to request to the correct path with 
 ``` text
