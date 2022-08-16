@@ -9,13 +9,24 @@
         <meta name="description" content="Documentation for using, build the MyCovid API 2.0">
         <!-- keywords -->
         <meta name='keywords' content="covid api, malaysia covidapi, mycovid api, data api, malaysia vaccination data">
-        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" />
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
+        <script src="https://kit.fontawesome.com/ba1aa6d09b.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <nav>
+                <a href="#/README.md"><i class="fa-solid fa-file-lines"></i></a>
+                <a href="#/example.md"><i class="fa-solid fa-code"></i></a>
+                <a href="#/zh-cn.md"><i class="fa-solid fa-language"></i></a>
+        </nav>
         <div id="app"></div>
         <script>
             window.$docsify = {
-                //...
+                footer: {
+                    copy: '<span>&copy;</span>',
+                    auth: '<strong><a href="https://github.com/manho30" target="_blank">Man Ho</a></strong> all right reserved' , 
+                    pre: '<hr/>',
+                    style: 'font-size: 18px; text-align: center;',
+                },
             }
         </script>
         <!-- count -->
