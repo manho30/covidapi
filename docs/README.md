@@ -9,61 +9,42 @@ Coverage percentage: ![coverage](https://img.shields.io/badge/coverage-42%25-gre
 
 ### Project Structure
 ```
-./
-├── index.php
-├── LICENSE
-├── README.md
-├── epidemic
-│   ├── case
-│   │   ├── age
-│   │   │   └── index.php
-│   │   └── malaysia
-│   │       └──index.php
-│   ├── cluster
-│   │   └── index.php
-│   ├── death
-│   |   ├── age
-│   |   │   └── index.php
-│   |   └── malaysia
-│   |       └── index.php
-│   ├── hospital
-│   │   └── index.php
-│   ├── icu
-│   │   └── index.php
-│   ├── pkrc
-│   │   └── index.php
-│   └── test
-│       └── index.php
-├── mysejahtera
-│   ├── checkin
-│   │   ├── malaysia
-│   │   │   └── index.php
-|   |   ├── state
-│   │   │   └── index.php
-|   |   └──time
-│   │       └── index.php
-│   └── trace
-│       └── index.php
-├── path
-│   └── path.php
-├── registration
-|   ├── state
-|   │   └── index.php
-|   └── vax
-|       └── index.php
-├── static
-|   └── index.php
-├── vax
-|   ├── malaysia
-|   │   └── index.php
-|   ├── school
-|   │   └── index.php
-|   └── state
-|       └── index.php
-└── docs
-    ├── index.html
-    ├── README.md
-    
+.
+├───assest
+├───docs
+├───epidemic
+│   ├───case
+│   │   ├───age
+│   │   ├───malaysia
+│   │   └───state
+│   ├───cluster
+│   ├───death
+│   │   ├───age
+│   │   ├───malaysia
+│   │   └───state
+│   ├───hospital
+│   ├───icu
+│   ├───pkrc
+│   └───test
+│       ├───malaysia
+│       └───state
+├───mysejahtera
+│   ├───checkin
+│   │   ├───malaysia
+│   │   ├───state
+│   │   └───time
+│   └───trace
+├───path
+├───registration
+│   ├───state
+│   └───vax
+├───static
+├───vax
+│   ├───malaysia
+│   ├───school
+│   └───state
+└───vendor
+    └───composer
 ```
 
 ### Requirment
@@ -74,14 +55,14 @@ Coverage percentage: ![coverage](https://img.shields.io/badge/coverage-42%25-gre
 ### Clone the project
 
 ```bash
-$ git clone https://github.com/manho30/covidapi.git
-$ cd covidapi
+$git clone https://github.com/manho30/covidapi.git
+$cd covidapi
 ```
 
 ### Run the server
 
 ``` bash
-$ php -S 127.0.0.1:8084
+$php -S 127.0.0.1:8084
 ```
 The server should be start now.
 
@@ -108,13 +89,13 @@ If you are already installed, skip this part.
 First, running the bloody following command in the terminal.
 
 ```bash
-$ npm install -g heroku-cli
+$npm install -g heroku-cli
 ```
 
 Checking the installation
 
 ```bash
-$ heroku --versiom
+$heroku --versiom
 ```
 It shuold be `heroku/7.60.2 win32-x64 node-v16.14.2` in your ouput means the installation is successful.
 
@@ -123,16 +104,16 @@ After the installation, you can run the following command to login to heroku, fo
 
 
 ```bash
-$ heroku login
+$heroku login
 ```
 
 
 #### Deploy your changes
 
 ``` bash
-$ git add .
-$ git commit -am "initial commit"
-$ git push heroku
+$git add .
+$git commit -am "initial commit"
+$git push heroku
 ```
 So far the project is deployed to heroku.
 
@@ -159,15 +140,15 @@ Accoring to the project structure, you may reqauest to the correct path. Otherwi
 |       └── index.php
 ```
 Hence, you need to request to the correct path with 
-``` text
-http://127.0.0.1:8084/vax/state
+``` http
+GET http://127.0.0.1:8084/vax/state
 ```
 
 
 
 Or if you are using my puiblic interface, it shuold be
-``` text
-http://mycovidapi2/vax/state
+``` http
+GET http://mycovidapi2.herokuapp.com/vax/state
 ```
 
 ## Credit
