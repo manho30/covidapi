@@ -9,7 +9,6 @@ Coverage percentage: ![coverage](https://img.shields.io/badge/coverage-42%25-gre
 
 ### Project Structure
 ```
-<<<<<<< HEAD
 .
 ├───assest
 ├───docs
@@ -46,63 +45,6 @@ Coverage percentage: ![coverage](https://img.shields.io/badge/coverage-42%25-gre
 │   └───state
 └───vendor
     └───composer
-=======
-./
-├── index.php
-├── LICENSE
-├── README.md
-├── epidemic
-│   ├── case
-│   │   ├── age
-│   │   │   └── index.php
-│   │   └── malaysia
-│   │       └──index.php
-│   ├── cluster
-│   │   └── index.php
-│   ├── death
-│   │   ├── age
-│   │   │   └── index.php
-│   │   └── malaysia
-│   │       └── index.php
-│   ├── hospital
-│   │   └── index.php
-│   ├── icu
-│   │   └── index.php
-│   ├── pkrc
-│   │   └── index.php
-│   └── test
-│       └── index.php
-├── mysejahtera
-│   ├── checkin
-│   │   ├── malaysia
-│   │   │   └── index.php
-│   │   ├── state
-│   │   │   └── index.php
-│   │   └──time
-│   │       └── index.php
-│   └── trace
-│       └── index.php
-├── path
-│   └── path.php
-├── registration
-│   ├── state
-│   │   └── index.php
-│   └── vax
-│       └── index.php
-├── static
-│   └── index.php
-├── vax
-│   ├── malaysia
-│   │   └── index.php
-│   ├── school
-│   │   └── index.php
-│   └── state
-│       └── index.php
-└── docs
-    ├── index.html
-    ├── README.md
-    
->>>>>>> 915c17c1625fb3afcaa96ec116364f9f08786c0b
 ```
 
 ### Requirment
